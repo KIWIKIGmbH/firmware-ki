@@ -1,0 +1,3 @@
+[submodule "kiwitest"]
+	path = kiwitest
+	url = git@gitlab.doorfid.com:open-source/kiwitest.git
