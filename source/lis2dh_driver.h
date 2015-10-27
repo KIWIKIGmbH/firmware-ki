@@ -1,8 +1,10 @@
 /*
- * lis2dh_driver.h
+ * This file is part of the KIWI.KI GmbH Ki firmware.
  *
- *  Created on: Oct 22, 2014
- *      Author: tjordan
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, you can obtain one at http://mozilla.org/MPL/2.0/
+ *
  */
 
 #ifndef LIS2DH_DRIVER_H_
@@ -22,7 +24,7 @@
 #define LIS2DH_Act_DUR             0x3F
 
 /*
- * KiwiKi functions
+ * LIS2DH functions
  */
 status_t LIS2DH_init(void);
 status_t LIS2DH_SetAct_THS(u8_t val);

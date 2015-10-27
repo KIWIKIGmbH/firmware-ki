@@ -1,16 +1,11 @@
 /*
- * lis2dh_driver.c
+ * This file is part of the KIWI.KI GmbH Ki firmware.
  *
- *  Created on: Oct 22, 2014
- *      Author: tjordan
- */
-
-/*
- * KiwiKi GmBH
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, you can obtain one at http://mozilla.org/MPL/2.0/
  *
- * lis2dh accelerometer functions
  */
-
 
 #include "lis3dh_driver.h"
 #include "lis2dh_driver.h"

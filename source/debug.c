@@ -1,3 +1,10 @@
+/*
+ * This code is not copyrightable. It is BSD printf wrapped by some small
+ * utility functions for enabling easy use of semi-hosted printf on JLink
+ * debuggers.
+ *
+ * Have fun.
+ */
 #ifdef SEMIHOSTED
 #ifdef __arm__
 

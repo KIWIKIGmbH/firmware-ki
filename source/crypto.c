@@ -1,3 +1,12 @@
+/*
+ * This file is part of the KIWI.KI GmbH Ki firmware.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, you can obtain one at http://mozilla.org/MPL/2.0/
+ *
+ */
+
 #include "hw.h"
 #include "crypto.h"
 #include "string.h"
@@ -16,7 +25,8 @@
  */
 void aes_enc_dec(unsigned char *state, unsigned char *key, unsigned char dir);
 
-void crypto_aes_decrypt(const uint8_t * key, const uint8_t * data, aes_state_t * state)
+void crypto_aes_decrypt(const uint8_t * key, const uint8_t * data,
+                        aes_state_t * state)
 {
   if (!key)
   {
@@ -50,7 +60,8 @@ void crypto_aes_decrypt(const uint8_t * key, const uint8_t * data, aes_state_t *
   memcpy(state->key, key, AES_BLOCK_SIZE);
 }
 
-void crypto_aes_encrypt(const uint8_t * key, const uint8_t * data, aes_state_t * state)
+void crypto_aes_encrypt(const uint8_t * key, const uint8_t * data,
+                        aes_state_t * state)
 {
   if (!key)
   {

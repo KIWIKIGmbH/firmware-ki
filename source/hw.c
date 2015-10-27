@@ -1,3 +1,12 @@
+/*
+ * This file is part of the KIWI.KI GmbH Ki firmware.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, you can obtain one at http://mozilla.org/MPL/2.0/
+ *
+ */
+
 #include "hw.h"
 #include "nrf.h"
 #include "nrf51.h"
@@ -5,7 +14,6 @@
 #include "nrf_gpio.h"
 #include "nrf_gpiote.h"
 #include "nrf_delay.h"
-
 
 /* Some struct defines so that debuggers know how to read our memory */
 volatile NVIC_Type *Interrupts = NVIC;
