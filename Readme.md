@@ -41,3 +41,6 @@ any arm-none-eabi toolchain (including yagarto, sourcery g++, clang, etc.).
 ## Documentation
 
 The code is full of comments. Please read them.
+
+## Contact
+KIWI.KI GmbH is responsible for this firmware. Our website is http://www.kiwi.ki -- we can be reached via email at info -at- kiwi.ki
